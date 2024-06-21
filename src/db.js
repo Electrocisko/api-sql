@@ -1,6 +1,7 @@
 import pg from 'pg';
 import dotenvConfig from './config.js';
 
+
 export const pool =  new pg.Pool({
     user: dotenvConfig.db.USER_DB,
     host: dotenvConfig.db.HOST_DB,
