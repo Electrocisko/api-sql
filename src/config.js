@@ -11,5 +11,7 @@ export default {
     PASSWORD_DB: process.env.PASSWORD_DB,
     DATABASE_NAME: process.env.DATABASE_NAME,
     PORT_DB: process.env.PORT_DB,
+    DATABASE_URL: process.env.DATABASE_URL
+
   },
 };

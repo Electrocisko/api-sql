@@ -8,6 +8,6 @@ export const pool =  new pg.Pool({
     password: dotenvConfig.db.PGPASSWORD,
     database: dotenvConfig.db.PGDATABASE,
     port: dotenvConfig.db.PGPORT,
-    url: dotenvConfig.db.DATABASE_UR
+    url: dotenvConfig.db.DATABASE_URL
 })
 
