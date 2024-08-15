@@ -15,8 +15,6 @@ router.get("/users", async (req,res) => {
             error: error.message
         })
     }
-
-
 })
 
 router.get("/users/:id", async (req,res) => {
