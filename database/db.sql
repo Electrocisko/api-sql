@@ -8,5 +8,6 @@ CREATE TABLE users (
 
 INSERT INTO users (name, email) VALUES ('Jhon Mircha','jhon@gmail.com');
 INSERT INTO users (name, email) VALUES ('Fave Brubeck','davebrubeck@gmail.com');
+INSERT INTO users (name, email) VALUES ('David Camerron','davecamerron@gmail.com');
 
 SELECT * FROM users;
